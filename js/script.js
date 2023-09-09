@@ -10,10 +10,10 @@ button.onclick=function () {
 }
 
 
-let dzax=document.querySelector("mainContainer>testimonials>div>.content>.Jenny>div>span.dzax")
-let aj=document.querySelector("mainContainer>testimonials>div>.content>.Jenny>div>span.aj")
+let dzax=document.querySelector("mainContainer>testimonials>div>.spans>span.dzax")
+let aj=document.querySelector("mainContainer>testimonials>div>.spans>span.aj")
 let img=document.querySelectorAll("mainContainer>testimonials>div>.content")
-let active=0g
+let active=0
 
 aj.onclick=function () {
     img[active].style.display = 'none'
@@ -31,10 +31,6 @@ dzax.onclick = function () {
 }
 
 
-
-// +i hamar?
-let par = document.querySelectorAll("mainContainer > .frequently > div > .howMuch > div > p");
-let plyus = document.querySelectorAll('mainContainer > .frequently > div > .howMuch > div > button.plyus');
 
 
 

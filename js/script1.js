@@ -1,4 +1,4 @@
-let plyus = document.querySelectorAll('mainContainer>.frequently>div>.howMuch>div>button.plyus');
+let plyus = document.querySelectorAll('mainContainer > .frequently > div > .howMuch > div > button.plyus, mainContainer > .frequently > div > .howMuch > div > div');
 
 
 for (let i = 0; i < plyus.length; i++) {
@@ -10,12 +10,5 @@ for (let i = 0; i < plyus.length; i++) {
         else{
             div.style.height="40px"
         }
-        
-        // if (paragraph.style.display === 'block') {
-        //     paragraph.style.display = 'none';
-        // } 
-        // else {
-        //     paragraph.style.display = 'block';
-        // }
     };
 }

@@ -10,9 +10,9 @@ button.onclick=function () {
 }
 
 
-let dzax=document.querySelector("mainContainer>testimonials>div>.spans>span.dzax")
-let aj=document.querySelector("mainContainer>testimonials>div>.spans>span.aj")
-let img=document.querySelectorAll("mainContainer>testimonials>div>.content")
+let dzax=document.querySelector("mainContainer>testimonials>div>div>.spans>span.dzax")
+let aj=document.querySelector("mainContainer>testimonials>div>div>.spans>span.aj")
+let img=document.querySelectorAll("mainContainer>testimonials>div>div>.content")
 let active=0
 
 aj.onclick=function () {

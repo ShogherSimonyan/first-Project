@@ -487,55 +487,58 @@ mainContainer>testimonials>div>.clients>p{
     font-size: 13px;
     color: rgba(40, 41, 56, 0.597);
 }
-mainContainer>testimonials>div>.content{
+
+mainContainer>testimonials>div>div>.content{
     display: flex;
     flex-direction: column;
     flex: 1 1 400px;
     align-items: center;
+    /* transition: 1s linear; */
+    
 }
-mainContainer>testimonials>div>.content:nth-child(n+3){
+mainContainer>testimonials>div>div>.content:nth-child(n+2){
     display: none;
 }
-mainContainer>testimonials>div>.content>p{
+mainContainer>testimonials>div>div>.content>p{
     max-width: 500px;
     min-height: 170px;
     font-size: 22px;
 }
-mainContainer>testimonials>div>.content>.Jenny{
+mainContainer>testimonials>div>div>.content>.Jenny{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     flex-wrap: wrap;
 }
-mainContainer>testimonials>div>.content>.Jenny>div.img{
+mainContainer>testimonials>div>div>.content>.Jenny>div.img{
     display: flex;
     gap: 4px;
     align-items: flex-start;
     flex-direction: column;
 }
-mainContainer>testimonials>div>.content>.Jenny>div>img{
+mainContainer>testimonials>div>div>.content>.Jenny>div>img{
     width: 50px;
     height: 50px;
     object-fit: cover;
     border-radius: 50%;
 }
 
-mainContainer>testimonials>div>.content>.Jenny>div>div>p{
+mainContainer>testimonials>div>div>.content>.Jenny>div>div>p{
     font-size: 13px;
 }
-mainContainer>testimonials>div>.spans{
+mainContainer>testimonials>div>div>.spans{
     position: absolute;
     bottom: 25%;
     right: 5%;
 }
-mainContainer>testimonials>div>.spans>span{
+mainContainer>testimonials>div>div>.spans>span{
     padding: 7px 10px;
     background-color: white;
     border-radius: 50%;
     cursor: pointer;
 }
-mainContainer>testimonials>div>.spans>span:active{
+mainContainer>testimonials>div>div>.spans>span:active{
     background-color: blue;
     color: white;
 }
@@ -910,23 +913,22 @@ mainContainer>.frequently>div>.howMuch>div{
     border-bottom: 2px solid  rgba(194, 187, 255, 0.70);
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     position: relative;
     padding-bottom: 10px;
     overflow: hidden;
-    transition: 1s linear;
+    transition: 300ms linear;
 }
-mainContainer>.frequently>div>.howMuch>div.show{
-    /* height: minmax(100px,200px); */
-}
-mainContainer>.frequently>div>.howMuch>div>span{
+
+mainContainer>.frequently>div>.howMuch>div>div>span{
+    padding-bottom: 20px;
     display: flex;
     gap: 20px;
 }
-mainContainer>.frequently>div>.howMuch>div>span>b{
+mainContainer>.frequently>div>.howMuch>div>div>span>b{
     color: #2405F2;
 }
-mainContainer>.frequently>div>.howMuch>div>p{
+mainContainer>.frequently>div>.howMuch>div>div>p{
     /* display: none; */
     position: relative;
     width: 85%;

@@ -1,3 +1,5 @@
+
+
 let menuIcom= document.querySelector("mainContainer>navbar>div>p.menu")
 let aside=document.querySelector("mainContainer>navbar>div>ul.aside")
 let button=aside.querySelector("mainContainer>navbar>div>ul.aside>button.pakel")
